@@ -1,0 +1,92 @@
+!doctype html>
+<html lang="en">
+  <head>
+    <!-- CSS style sheets, Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="app.js">
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Final Project</title>
+  </head>
+  <body>
+
+      
+    <div class="container" id="mainJumbo">
+      <div class="jumbotron text-center">
+          <h1>Task Planner </h1>
+      </div>
+  </div>
+  
+
+  <div class="container" id="mainSection">
+      <div class="row">
+          <div class="col-md-6" id="form">
+              <form>
+                  <div class="form-group">
+                    <label for="nameInput">Name</label>
+                    <input type="text" class="form-control" id="nameInput" placeholder= "Name of the person creating the task">
+                  </div>
+                  <div class="form-group">
+                    <label for="descriptionInput">Description</label>
+                    <input type="text" class="form-control" id="descriptionInput" placeholder="Email senior management team with final report">
+                  </div>
+                  <div class="form-group">
+                    <label for="assignedInput">Assigned To</label>
+                    <input type="text" class="form-control" id="assignedInput" placeholder="John Smith">
+                  </div>
+                  
+                  <div class="form-group">
+                      <label for="dateInput">Due Date</label>
+                      <input type="date" class="form-control" id="dateInput" placeholder="Due date">
+                  </div>
+                  <div class="form-group">
+                    <label for="statusInput">Status</label>
+                      <select class="form-control" id="statusInput">
+                      <option selected>Choose...</option>
+                        <option value="todo">To-do</option>
+                        <option value="review">Review</option>
+                        <option value="inprogress">In progress</option>
+                        <option value="done">Done</option>
+                      </select>
+                    </div>
+                    <button type="button" class="btn btn-primary" id="addbutton">Add task</button>
+                  </form>
+            </div>
+
+
+
+
+
+
+<div class="col-md-6" >
+  <div class="list-group" id="newTasksList">
+    
+    </div>
+</div>
+</div>
+
+
+<div class="row" id="cardSection">
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+<!--bootstrap js files-->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script src="app.js"></script>
+</body>
+</html>
+                  
+                
